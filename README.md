@@ -6,6 +6,12 @@ Brenden Larios
 Project 1: Certified PreOwned Processor
 </p>
 
+**GTK Wave Screen Shots**
+![Alt text](data/Singe_Cycle_GTKW_1.JPG?raw=true "Whiteboard Thoughts")
+![Alt text](data/Singe_Cycle_GTKW_2.JPG?raw=true "Whiteboard Thoughts")
+
+
+
 **Project Planning:**
 
 ![Alt text](data/original_scheme.jpg?raw=true "Whiteboard Thoughts")
