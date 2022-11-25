@@ -1,6 +1,6 @@
-Vincent Lee <br />
-Brandon Chao <br />
-Brenden Larios <br />
+Vincent Lee \
+Brandon Chao \
+Brenden Larios \
 
 <p align="center">
 Project 1: Certified PreOwned Processor
