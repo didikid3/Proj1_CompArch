@@ -18,7 +18,6 @@ Project 1: Certified PreOwned Processor
 
 
 **Findings:**
-Markup : 
 * We learned that Verilog can access memory and write to it
 * We understand the control unit of a single cycle implementation and which bits to set to acquire a specific operation.
 * We obtained significant practice converting hex to binary and vice versa
