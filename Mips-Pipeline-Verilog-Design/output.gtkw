@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Nov 28 23:41:35 2022
+[*]
+[dumpfile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Mips-Pipeline-Verilog-Design\dump.vcd"
+[dumpfile_mtime] "Mon Nov 28 23:29:24 2022"
+[dumpfile_size] 60598618
+[savefile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Mips-Pipeline-Verilog-Design\output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -67 -42
+*-11.000000 2100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] MipsPipelineTestBench.
+[sst_width] 252
+[signals_width] 205
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+MipsPipelineTestBench.clk
+MipsPipelineTestBench.controlUnit.RegDst
+MipsPipelineTestBench.controlUnit.branch
+MipsPipelineTestBench.controlUnit.Memread
+MipsPipelineTestBench.controlUnit.MemtoReg
+MipsPipelineTestBench.controlUnit.ALUop[3:0]
+MipsPipelineTestBench.controlUnit.MemWrite
+MipsPipelineTestBench.controlUnit.AluSrc
+MipsPipelineTestBench.controlUnit.RegWrite
+[pattern_trace] 1
+[pattern_trace] 0
