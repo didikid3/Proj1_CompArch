@@ -1,20 +1,20 @@
 [*]
 [*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
-[*] Mon Nov 28 23:41:35 2022
+[*] Thu Dec 01 22:23:03 2022
 [*]
-[dumpfile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Mips-Pipeline-Verilog-Design\dump.vcd"
-[dumpfile_mtime] "Mon Nov 28 23:29:24 2022"
-[dumpfile_size] 60598618
-[savefile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Mips-Pipeline-Verilog-Design\output.gtkw"
-[timestart] 0
-[size] 1000 600
-[pos] -67 -42
-*-11.000000 2100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[dumpfile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Proj1_CompArch\Mips-Pipeline-Verilog-Design\dump.vcd"
+[dumpfile_mtime] "Tue Nov 29 23:11:14 2022"
+[dumpfile_size] 25629659
+[savefile] "C:\Users\Brandon Local\Desktop\CPP\Fall 2022\CS 3650\Project_1_CS_3650\Project 1 CS 3650\Proj1_CompArch\Mips-Pipeline-Verilog-Design\output.gtkw"
+[timestart] 84640
+[size] 1280 657
+[pos] -139 -50
+*-7.000000 26100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] MipsPipelineTestBench.
-[sst_width] 252
-[signals_width] 205
+[sst_width] 301
+[signals_width] 246
 [sst_expanded] 1
-[sst_vpaned_height] 153
+[sst_vpaned_height] 173
 @28
 MipsPipelineTestBench.clk
 MipsPipelineTestBench.controlUnit.RegDst
@@ -25,5 +25,33 @@ MipsPipelineTestBench.controlUnit.ALUop[3:0]
 MipsPipelineTestBench.controlUnit.MemWrite
 MipsPipelineTestBench.controlUnit.AluSrc
 MipsPipelineTestBench.controlUnit.RegWrite
+MipsPipelineTestBench.RegWriteEX
+MipsPipelineTestBench.RegWriteID
+MipsPipelineTestBench.RegWriteMEM
+MipsPipelineTestBench.RegDstEX
+MipsPipelineTestBench.RegDstID
+MipsPipelineTestBench.hazardMuxSelector
+@22
+MipsPipelineTestBench.regWriteDataMEM[31:0]
+MipsPipelineTestBench.registerData1EX[31:0]
+MipsPipelineTestBench.registerData1ID[31:0]
+MipsPipelineTestBench.registerData2EX[31:0]
+MipsPipelineTestBench.registerData2ID[31:0]
+MipsPipelineTestBench.EX_MEM.ALUresultOut[31:0]
+MipsPipelineTestBench.MEM_WB.ALUresultOut[31:0]
+@29
+MipsPipelineTestBench.IF_ID.instrIn[31:0]
+@28
+MipsPipelineTestBench.IF_ID.instrOut[31:0]
+MipsPipelineTestBench.forwardingUnit.EX_MemRegwrite
+MipsPipelineTestBench.forwardingUnit.EX_MemWriteReg[4:0]
+MipsPipelineTestBench.forwardingUnit.ID_Ex_Rs[4:0]
+MipsPipelineTestBench.forwardingUnit.ID_Ex_Rt[4:0]
+MipsPipelineTestBench.forwardingUnit.Mem_WbRegwrite
+MipsPipelineTestBench.forwardingUnit.Mem_WbWriteReg[4:0]
+MipsPipelineTestBench.forwardingUnit.comparatorMux1Selector[1:0]
+MipsPipelineTestBench.forwardingUnit.comparatorMux2Selector[1:0]
+MipsPipelineTestBench.forwardingUnit.lowerMux_sel[1:0]
+MipsPipelineTestBench.forwardingUnit.upperMux_sel[1:0]
 [pattern_trace] 1
 [pattern_trace] 0
